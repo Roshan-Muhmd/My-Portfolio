@@ -1,0 +1,15 @@
+.tiles{
+
+display: grid;
+justify-content: center;
+align-content: center;
+width: 100px;
+height: 100px;
+border: 3px solid black;
+background:rgba(95, 89, 95, 0.575);
+color: aqua;
+border-radius: 3px;
+border: 1px solid rgba(245, 245, 245, 0.651);
+padding:10px;
+color:black;
+}
