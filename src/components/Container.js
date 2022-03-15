@@ -2,12 +2,17 @@ import classes from "./Container.module.css";
 import Tiles from "./Tiles";
 import { FiSmile, FiLayers, FiPhone, FiMoreHorizontal } from "react-icons/fi";
 
+const display = () => {
+  console.log("hiiii")
+}
+
+
 const Container = () => {
   return (
     <div className={classes.content}>
       <Tiles>
         <div className={classes.position}>
-          <FiSmile className={classes.icon}></FiSmile>About me
+          <FiSmile onClick={display} className={classes.icon}></FiSmile>About me
         </div>
       </Tiles>
       <Tiles>
