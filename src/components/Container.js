@@ -20,7 +20,11 @@ const Container = () => {
       </Tiles>
       <Tiles>
       <div className={classes.position}>
+<<<<<<< HEAD
         <FiPhone className={classes.icon}></FiPhone><div className={classes.center}>Contact</div>
+=======
+        <FiPhone className={classes.icon}></FiPhone><div>Contact</div>
+>>>>>>> 4bc23e2d93a4d676460b045e29898a85d244c870
       </div>
       </Tiles>
       <Tiles>
