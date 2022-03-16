@@ -2,9 +2,7 @@ import classes from "./Container.module.css";
 import Tiles from "./Tiles";
 import { FiSmile, FiLayers, FiPhone, FiMoreHorizontal } from "react-icons/fi";
 
-const display = () => {
-  console.log("hiiii")
-}
+
 
 
 const Container = () => {
@@ -12,7 +10,7 @@ const Container = () => {
     <div className={classes.content}>
       <Tiles>
         <div className={classes.position}>
-          <FiSmile onClick={display} className={classes.icon}></FiSmile>About me
+          <FiSmile className={classes.icon}></FiSmile>About me
         </div>
       </Tiles>
       <Tiles>
@@ -22,7 +20,7 @@ const Container = () => {
       </Tiles>
       <Tiles>
       <div className={classes.position}>
-        <FiPhone className={classes.icon}></FiPhone>Contact
+        <FiPhone className={classes.icon}></FiPhone><div>Contact</div>
       </div>
       </Tiles>
       <Tiles>
