@@ -1,0 +1,14 @@
+.overlay{
+    position:fixed;
+    width:100px;
+    height:200px;
+    background: white;
+    z-index: 30;
+}
+.backdrop{
+    position: fixed;
+    width:100vw;
+    height: 100vh;
+    z-index: 25;
+    color:black;
+}

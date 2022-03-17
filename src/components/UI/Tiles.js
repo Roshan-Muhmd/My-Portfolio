@@ -2,7 +2,7 @@ import classes from "./Tiles.module.css"
 
 const Tiles = (props) => {
     return (
-<div className={classes.tiles}>
+<div onClick={props.onClick} className={classes.tiles}>
    {props.children}
    </div>
     )

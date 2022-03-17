@@ -3,16 +3,18 @@
   top: 30%;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 40vw;
-  height: 50vh;
-  background: rgba(75, 75, 78, 0.945);
-  border: 1px solid rgba(255, 255, 255, 0.432);
+  width: 45vw;
+  height: 55vh;
+  background: rgba(75, 75, 78, 0.438);
+  border: 7px solid white;
+  border-radius: 15px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   justify-content: center;
   align-items: center;
   user-select: none;
+  z-index: 20;
 }
 
 .icon {

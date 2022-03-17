@@ -1,0 +1,16 @@
+.tiles{
+text-align: center;
+width: 100px;
+height: 100px;
+background:rgba(95, 89, 95, 0.575);
+border-radius: 10px;
+border: 5px solid white;
+padding:10px;
+color:white;
+
+}
+
+.tiles:hover{
+    width:110px;
+    height: 110px;
+}

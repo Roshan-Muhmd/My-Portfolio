@@ -1,13 +1,20 @@
-.position{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position:relative;
-    bottom: 30px;
-    width: 250px;
-    position:absolute;
-    left:50%;
-    transform: translate(-50%,0);
-    font-size: 30px;
-    color: white;
+.position {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  bottom: 30px;
+  width: 250px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 25px;
+  color: white;
+}
+.handles {
+  text-decoration: none;
+  color: white;
+}
+.handles:hover {
+  font-size: 40px;
 }
